@@ -20,6 +20,15 @@ dependencies {
 	}
 }
 
+jar {
+  baseName = 'herokuDeployExample'
+  version = '0.0.1'
+}
+
+task stage{
+	dependsOn build
+}
+
 test {
 	useJUnitPlatform()
 }

@@ -1,1 +1,1 @@
-web: java -jar build/libs/herokuDeployExample-0.0.1-SNAPSHOT.jar
+web: java -jar build/libs/herokuDeploySample-0.0.1-SNAPSHOT.jar
